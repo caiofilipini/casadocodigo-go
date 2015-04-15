@@ -22,7 +22,7 @@ func main() {
 	} else if unidadeOrigem == "quilometros" {
 		unidadeDestino = "milhas"
 	} else {
-		fmt.Printf("%s não é uma unidade conhecida!", unidadeDestino)
+		fmt.Printf("%s não é uma unidade conhecida!", unidadeOrigem)
 		os.Exit(1)
 	}
 
